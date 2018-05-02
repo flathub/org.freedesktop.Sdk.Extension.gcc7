@@ -110,7 +110,7 @@
                     "type": "script",
                     "commands": [
                         "install -d /app/lib",
-                        "install -m755 /usr/lib/sdk/gcc7/lib/libquadmath.so* /usr/lib/sdk/gcc7/lib/libgfortran.so* /app/lib/"
+                        "cp -vd /usr/lib/sdk/gcc7/lib/libquadmath.so* /usr/lib/sdk/gcc7/lib/libgfortran.so* /app/lib/"
                     ],
                     "dest-filename": "install_gfortran.sh"
                 },
@@ -127,7 +127,7 @@
                     "type": "script",
                     "commands": [
                         "install -d /app/lib",
-                        "install -m755 /usr/lib/sdk/gcc7/lib/lib{gcc_s.so.1,stdc++.so.6*} /app/lib/"
+                        "cp -vd /usr/lib/sdk/gcc7/lib/lib{gcc_s.so.1,stdc++.so.6*} /app/lib/"
                     ],
                     "dest-filename": "install_runtime_libs.sh"
                 }
