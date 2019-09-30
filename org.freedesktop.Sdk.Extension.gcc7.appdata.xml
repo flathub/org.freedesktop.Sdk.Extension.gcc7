@@ -4,4 +4,6 @@
   <metadata_license>CC0-1.0</metadata_license>
   <name>GCC 7 Sdk extension</name>
   <summary>Extension providing latest stable release of GCC 7</summary>
+  <url type="homepage">https://gcc.gnu.org</url>
+  <project_license>GPL-2.0-with-GCC-exception</project_license>
 </component>
